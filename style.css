@@ -47,9 +47,6 @@ div:hover{
      color:white;
      border-radius: 8px;
 }
-div a:hover{
-     color: white;
-}
 .active{
      background-color: white;
      color: black;
