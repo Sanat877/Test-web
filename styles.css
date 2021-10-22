@@ -2,7 +2,7 @@
 h1{
     text-align: center;
     padding: 40px;
-    
+    font-family:'cookie',cursive;
 }
 .container{
     position: relative;
@@ -68,13 +68,14 @@ h3{
 .content1{
     
     background-color: rgba(128, 128, 128, 0.337);
-    box-shadow: 1px 1px 8px 3px;
+    box-shadow: 1px 1px 10px 3px;
 }
 
 
 .content2{
     background-color: rgba(128, 128, 128, 0.337);
     height: 100px;
+    box-shadow: 1px 1px 10px 3px;
 }
 .leftcol{
     float: left;
