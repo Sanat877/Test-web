@@ -8,11 +8,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body style="background-color: black;">
-    <ul>
-        <li><a href="#" style="padding-left: 30px;">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Works</a></li>
+    <ul id="Switch">
+        <li onclick="myfunc()" id="icon">
+            <div></div>
+            <div></div>
+            <div></div>
+            <br>
+        </li>
+        
+        <li><a href="#" >Home</a></li>
+        <li><a href="#" >About</a></li>
+        <li><a href="#" >Contact</a></li>
+        <li><a href="#" >Works</a></li>
     </ul>
+<script>
+    function myfunc()
+    {
+        document.getElementById("icon").style.display="none";
+        document.getElementById("Switch").style.width="100%";
+        document.getElementById("Switch").style.display="flex";
+        document.getElementById("Switch").style.justifyContent="center";
+        document.getElementById("Switch").style.alignItems="center";
+        document.getElementById("Switch").style.borderBottomLeftRadius="50px";
+        document.getElementById("Switch").style.borderBottomRightRadius="50px";
+
+
+    }
+</script>
 </body>
 </html>
